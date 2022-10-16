@@ -5,6 +5,9 @@ contract SimpleStorage {
     // boolean, uint, int, address, bytes
     uint256 favoriteNumber;
 
+    // this string(name) is being mapped to our number;
+    mapping(string => uint256) public nameToFavoriteNumber;
+
     // array list
     struct People {
         uint256 favoriteNumber;
@@ -27,6 +30,8 @@ contract SimpleStorage {
     // add people to our array;
     function addPerson(string memory _name, uint256 _favoriteNumber) public {
         people.push(People(_favoriteNumber, _name));
+        // tied our name to number;
+        nameToFavoriteNumber[_name] = _favoriteNumber;
     }
 
 }

@@ -21,5 +21,7 @@ Examples:
 6; Basic Solidity Arrays and Structs;
 7; Basic Solidity Errors and Warnings;
 
+8. Mapping
+A mapping is a data sctructure where a key is "mapped" to a single value;
 
 
