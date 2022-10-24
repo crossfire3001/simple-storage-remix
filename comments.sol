@@ -40,7 +40,7 @@ Theme: Remix Fund Me
 Nonce: tx count for the account;
 Gas Price: price per unit of gas (in wei);
 Gas Limit: max gas this tx can use;
-to: address that the tx is sent to;
+To: address that the tx is sent to;
 Value: amount of wei to send;
 Data: what to send to the To address;
 v, r, s: components of tx signature;
@@ -52,4 +52,13 @@ Gas Limit: 21000;
 To: address that the tx is sent to;
 Value: amount of wei to send;
 Data: empty;
+v, r, s: components of tx signature;
+
+// Transactions - Function Call
+Nonce: tx count for the account;
+Gas Proce: price per unit of gas (in wei);
+Gas Limit: max gas this tx can use;
+To: address that the tx is sent to;
+Value: amount of wei to send;
+Data: what to send to the To address;
 v, r, s: components of tx signature;
