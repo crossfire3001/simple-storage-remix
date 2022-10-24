@@ -35,3 +35,12 @@ Theme: Remix Storage Factory
 Theme: Remix Fund Me
 
 13. Sending ETH through a function and reverts;
+
+// Transactions - Fields
+Nonce: tx count for the account;
+Gas Price: price per unit of gas (in wei);
+Gas Limit: max gas this tx can use;
+to: address that the tx is sent to;
+Value: amount of wei to send;
+Data: what to send to the To address;
+v, r, s: components of tx signature;
