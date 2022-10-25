@@ -62,3 +62,5 @@ To: address that the tx is sent to;
 Value: amount of wei to send;
 Data: what to send to the To address;
 v, r, s: components of tx signature;
+
+14. Chainlink and oracles;
