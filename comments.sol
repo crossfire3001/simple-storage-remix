@@ -64,3 +64,5 @@ Data: what to send to the To address;
 v, r, s: components of tx signature;
 
 14. Chainlink and oracles;
+// https://docs.chain.link/docs/data-feeds/price-feeds/
+// https://faucets.chain.link/
