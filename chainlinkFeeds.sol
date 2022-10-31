@@ -1,10 +1,7 @@
-// https://docs.chain.link/docs/data-feeds/price-feeds/
-// https://faucets.chain.link/
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.7;
 
-// import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
 contract PriceConsumerV3 {
 
